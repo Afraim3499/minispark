@@ -4,7 +4,7 @@ import "./globals.css";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { Toaster } from "@/components/ui/sonner";
-import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from "@vercel/analytics/next";
 import { LoadingScreen } from "@/components/ui/LoadingScreen";
 import { JsonLd, GlobalSchemas } from "@/components/seo/JsonLd";
 import { cn } from "@/lib/utils";

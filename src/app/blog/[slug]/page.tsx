@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     }
 
     const excerpt = post.excerpt || "Read our latest strategic insights on business growth, branding, and digital platforms.";
-    const imageUrl = post.featured_image_url || "https://minispark.digital/minispark%20hero.jpg";
+    const imageUrl = post.featured_image_url || "https://minispark.digital/og-hero.png";
 
     return {
         title: `${post.title} | MiniSpark Insights`,

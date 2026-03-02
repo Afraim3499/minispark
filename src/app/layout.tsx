@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description: "Beyond an agency. We build digital business platforms that attract traffic, build trust, and capture high-intent leads.",
     siteName: "MiniSpark Digital",
     images: [{
-      url: "/minispark%20hero.jpg", // The 3D abstract object generated in Phase 2, sitting in public/
+      url: "/og-hero.png", // High-fidelity static render of the 3D coded hero graphic
       width: 1200,
       height: 630,
       alt: "MiniSpark Digital 3D Strategic Architecture",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "MiniSpark Digital | Digital Business Solutions",
     description: "Beyond an agency. We build digital business platforms that attract traffic, build trust, and capture high-intent leads.",
-    images: ["/minispark%20hero.jpg"],
+    images: ["/og-hero.png"],
   },
   icons: {
     icon: "/favicon.ico",

@@ -59,7 +59,7 @@ export function ServicePageTemplate({
             )}
 
             {/* Hero Section */}
-            <section className="relative h-[100vh] min-h-[600px] flex flex-col justify-center pt-20 overflow-hidden border-b border-border/10 bg-foreground text-white">
+            <section className="relative min-h-[100vh] flex flex-col justify-center pt-32 pb-12 overflow-hidden border-b border-border/10 bg-foreground text-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
                         <div>

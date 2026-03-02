@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function ContactPage() {
     return (
         <div className="pb-20">
-            <section className="bg-foreground text-background h-[100vh] min-h-[600px] flex flex-col justify-center pt-20 px-4 overflow-hidden relative border-b border-primary/20">
+            <section className="bg-foreground text-background min-h-[100vh] flex flex-col justify-center pt-32 pb-12 px-4 overflow-hidden relative border-b border-primary/20">
                 <div className="max-w-7xl mx-auto relative z-10 text-center md:text-left">
                     <div className="flex flex-col gap-6 mb-8 items-center md:items-start">
                         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-white text-[10px] md:text-xs font-bold mb-4 tracking-widest uppercase border border-white/20 w-fit">

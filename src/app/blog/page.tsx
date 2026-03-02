@@ -35,7 +35,7 @@ export default async function BlogPage() {
     return (
         <div className="pb-20">
             {/* Blog Hero */}
-            <section className="bg-foreground text-background h-[100vh] min-h-[600px] flex flex-col justify-center pt-20 px-4 overflow-hidden relative border-b border-border/10">
+            <section className="bg-foreground text-background min-h-[100vh] flex flex-col justify-center pt-32 pb-12 px-4 overflow-hidden relative border-b border-border/10">
                 <div className="max-w-7xl mx-auto relative z-10">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
                         <div>

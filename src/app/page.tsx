@@ -17,7 +17,7 @@ export default function HomePage() {
     <div className="flex flex-col pb-20">
       <JsonLd schema={GlobalSchemas.LocalBusiness} />
       {/* Hero Section */}
-      <section className="relative h-[100vh] min-h-[600px] flex flex-col justify-center pt-20 pb-6 overflow-hidden bg-foreground text-background">
+      <section className="relative min-h-[100vh] flex flex-col justify-center pt-32 pb-12 overflow-hidden bg-foreground text-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex flex-col lg:flex-row items-center gap-6 lg:gap-8 w-full">
           <div className="flex-1 text-center lg:text-left">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 text-white text-[10px] md:text-xs font-bold mb-4 tracking-widest uppercase border border-white/10">

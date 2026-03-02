@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 import { supabase } from '@/lib/supabase';
 
-const baseUrl = 'https://minisparkbd.com';
+const baseUrl = 'https://minispark.digital';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // Core static routes

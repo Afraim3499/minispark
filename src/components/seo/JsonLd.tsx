@@ -13,8 +13,8 @@ export function JsonLd({ schema }: { schema: Record<string, any> }) {
 const baseOrganization = {
     "@type": "Organization",
     "name": "MiniSpark Digital",
-    "url": "https://minisparkbd.com",
-    "logo": "https://minisparkbd.com/android-chrome-512x512.png",
+    "url": "https://minispark.digital",
+    "logo": "https://minispark.digital/android-chrome-512x512.png",
     "email": "minisparkbd@gmail.com",
     "sameAs": [
         "https://www.facebook.com/MiniSpark.Digital",
@@ -28,10 +28,10 @@ export const GlobalSchemas = {
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "MiniSpark Digital",
-        "url": "https://minisparkbd.com",
+        "url": "https://minispark.digital",
         "potentialAction": {
             "@type": "SearchAction",
-            "target": "https://minisparkbd.com/blog?q={search_term_string}",
+            "target": "https://minispark.digital/blog?q={search_term_string}",
             "query-input": "required name=search_term_string"
         }
     },
@@ -43,7 +43,7 @@ export const GlobalSchemas = {
         "@context": "https://schema.org",
         ...baseOrganization,
         "@type": "LocalBusiness",
-        "image": "https://minisparkbd.com/minispark%20hero.jpg",
+        "image": "https://minispark.digital/minispark%20hero.jpg",
         "address": {
             "@type": "PostalAddress",
             "addressCountry": "BD"
@@ -61,9 +61,9 @@ export function generateServiceSchema(serviceName: string, description: string, 
         "provider": {
             "@type": "Organization",
             "name": "MiniSpark Digital",
-            "url": "https://minisparkbd.com"
+            "url": "https://minispark.digital"
         },
-        "url": `https://minisparkbd.com${urlPath}`
+        "url": `https://minispark.digital${urlPath}`
     };
 }
 
@@ -73,7 +73,7 @@ export function generateArticleSchema(title: string, description: string, urlPat
         "@type": "Article",
         "headline": title,
         "description": description,
-        "image": imageUrl || "https://minisparkbd.com/minispark%20hero.jpg",
+        "image": imageUrl || "https://minispark.digital/minispark%20hero.jpg",
         "datePublished": publishedDate,
         "author": {
             "@type": "Person",
@@ -84,12 +84,12 @@ export function generateArticleSchema(title: string, description: string, urlPat
             "name": "MiniSpark Digital",
             "logo": {
                 "@type": "ImageObject",
-                "url": "https://minisparkbd.com/android-chrome-512x512.png"
+                "url": "https://minispark.digital/android-chrome-512x512.png"
             }
         },
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": `https://minisparkbd.com${urlPath}`
+            "@id": `https://minispark.digital${urlPath}`
         }
     }
 }
@@ -117,7 +117,7 @@ export function generateBreadcrumbSchema(items: { name: string; url?: string }[]
             "@type": "ListItem",
             "position": index + 1,
             "name": item.name,
-            ...(item.url ? { "item": `https://minisparkbd.com${item.url}` } : {})
+            ...(item.url ? { "item": `https://minispark.digital${item.url}` } : {})
         }))
     };
 }

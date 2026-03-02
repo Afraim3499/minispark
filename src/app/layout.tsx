@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit" });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://minisparkbd.com"), // Assuming standard domain, adjust if necessary. Using relative paths mostly below.
+  metadataBase: new URL("https://minispark.digital"), // Assuming standard domain, adjust if necessary. Using relative paths mostly below.
   title: {
     default: "MiniSpark Digital | Digital Business Solutions",
     template: "%s | MiniSpark Digital",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://minisparkbd.com",
+    url: "https://minispark.digital",
     title: "MiniSpark Digital | Digital Business Solutions",
     description: "Beyond an agency. We build digital business platforms that attract traffic, build trust, and capture high-intent leads.",
     siteName: "MiniSpark Digital",

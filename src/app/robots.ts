@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
             allow: '/',
             disallow: ['/admin', '/api'],
         },
-        sitemap: 'https://minisparkbd.com/sitemap.xml',
+        sitemap: 'https://minispark.digital/sitemap.xml',
     };
 }

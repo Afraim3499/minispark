@@ -43,7 +43,7 @@ export const GlobalSchemas = {
         "@context": "https://schema.org",
         ...baseOrganization,
         "@type": "LocalBusiness",
-        "image": "https://minispark.digital/og-hero.png",
+        "image": "https://minispark.digital/og-image.jpg",
         "address": {
             "@type": "PostalAddress",
             "addressCountry": "BD"
@@ -73,7 +73,7 @@ export function generateArticleSchema(title: string, description: string, urlPat
         "@type": "Article",
         "headline": title,
         "description": description,
-        "image": imageUrl || "https://minispark.digital/og-hero.png",
+        "image": imageUrl || "https://minispark.digital/og-image.jpg",
         "datePublished": publishedDate,
         "author": {
             "@type": "Person",

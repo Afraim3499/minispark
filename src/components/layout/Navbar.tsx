@@ -111,8 +111,8 @@ export function Navbar() {
 
             {/* Mobile menu */}
             {isOpen && (
-                <div className="md:hidden bg-foreground border-b border-white/10 shadow-xl border-t border-t-white/10 animate-in slide-in-from-top duration-300">
-                    <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <div className="md:hidden bg-foreground border-b border-white/10 shadow-xl border-t border-t-white/10 animate-in slide-in-from-top duration-300 absolute w-full max-h-[calc(100vh-80px)] overflow-y-auto pb-4">
+                    <div className="px-2 pt-2 pb-6 space-y-1 sm:px-3">
                         {navItems.map((item) => {
                             const isActive = pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href));
                             return (
